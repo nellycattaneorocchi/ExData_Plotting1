@@ -6,7 +6,7 @@ lines(t$Sub_metering_2~t$dateTime,col='Red')
 # add Sub_metering_3 in blue
 lines(t$Sub_metering_3~t$dateTime,col='Blue')
 # add legend
-legend("topright", col=c("black", "red", "blue"), lwd=c(1,1,1), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+legend("topright", col=c("black", "red", "blue"), lwd=c(1,1,1), c("Sub_metering_1  ", "Sub_metering_2  ", "Sub_metering_3  "))
 
 
 ## Save to the appropriate png file
